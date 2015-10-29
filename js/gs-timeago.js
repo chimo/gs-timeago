@@ -2,6 +2,11 @@
     /*global RealtimeUpdate: false*/
     "use strict";
 
+    // Bail if 'RealtimeUpdate' isn't available
+    if ( typeof( RealtimeUpdate ) === "undefined" ) {
+        return;
+    }
+
     // Take care of timestamps present on page load
     $( ".notice .dt-published" )
         .addClass( "timeago" )
