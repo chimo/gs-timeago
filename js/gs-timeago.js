@@ -1,4 +1,5 @@
-(function () {
+( function() {
+    /*global RealtimeUpdate: false*/
     "use strict";
 
     // Take care of timestamps present on page load
@@ -19,6 +20,4 @@
                 .timeago();
         } );
     };
-}());
-
-
+}() );
