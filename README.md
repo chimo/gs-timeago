@@ -1,3 +1,7 @@
+# Note
+
+I'm done with this. If someone wants to maintain it send me a note and I'll transfer the repo. Or just fork it, or whatever.
+
 # Timeago plugin for GNU social
 
 This tiny plugin adds JavaScript on your GNU social pages so that fuzzy
